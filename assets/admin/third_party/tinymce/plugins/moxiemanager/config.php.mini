@@ -1,0 +1,6 @@
+<?php
+$moxieManagerConfig['general.license'] = 'TQTC-YHWE-ZO2A-KBC4-DSBI-6AGW-C4X3-FFPR';
+$moxieManagerConfig['filesystem.rootpath'] = '../../../../../media';
+$moxieManagerConfig['authenticator'] = 'SessionAuthenticator';
+$moxieManagerConfig['SessionAuthenticator.logged_in_key'] = 'isLoggedIn';
+$moxieManagerConfig['SessionAuthenticator.config_prefix'] = '';
