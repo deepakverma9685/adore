@@ -53,11 +53,11 @@ app.use(
 // Server
  app.use(
     connection(mysql,{
-	host: 'localhost',
-    user: 'root',
+	host: 'hostel9685.czqufacnwj4v.us-east-2.rds.amazonaws.com',
+    user: 'hostel9685',
     port:3306,
-    password: '',
-    database: 'mydate'
+    password: 'hostel9685',
+    database: 'datingdb'
     },'pool') //or single
 );
 
